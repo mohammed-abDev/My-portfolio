@@ -1,5 +1,6 @@
 import React from 'react';
 import profileImg from "/imag/mohammedabdugithubbaner.png";
+import '../styles/main.css'
 
 
 const About = () => {
