@@ -17,9 +17,9 @@ const Footer = () => {
         <div className="footer-section">
           <h3>Navigation</h3>
           <ul>
-            {['home', 'about', 'projects', 'skills', 'contact'].map((item) => (
+            {["home", "about", "projects", "skills", "contact"].map((item) => (
               <li key={item}>
-                <a 
+                <a
                   href={`#${item}`}
                   onClick={(e) => {
                     e.preventDefault();
@@ -32,15 +32,21 @@ const Footer = () => {
             ))}
           </ul>
         </div>
-        
+
         <div className="footer-section">
           <h3>Contact Us</h3>
           <ul>
-            <li><span className="icon location"></span> Addis Ababa, Ethiopia</li>
-            <li><span className="icon email"></span> 
-              <a href="mailto:mohammedabddev11@gmail.com">mohammedabddev11@gmail.com</a>
+            <li>
+              <span className="icon location"></span> Addis Ababa, Ethiopia
             </li>
-            <li><span className="icon phone"></span> 
+            <li>
+              <span className="icon email"></span>
+              <a href="mailto:mohammedabddev11@gmail.com">
+                mohammedabddev11@gmail.com
+              </a>
+            </li>
+            <li>
+              <span className="icon phone"></span>
               <a href="tel:+251967177661">+251 967177661</a>
             </li>
           </ul>
@@ -48,30 +54,30 @@ const Footer = () => {
 
         <div className="footer-section">
           <h3>Connect</h3>
-          <p style={{ color: 'var(--text-secondary)', marginBottom: '10px' }}>
+          <p style={{ color: "var(--text-secondary)", marginBottom: "10px" }}>
             Let's build something amazing together
           </p>
           <div className="social-links">
-            <a 
-              href="https://github.com/bpmfMohammedAbdu" 
-              aria-label="GitHub" 
-              target="_blank" 
+            <a
+              href="https://github.com/https://github.com/mohammed-abDev"
+              aria-label="GitHub"
+              target="_blank"
               rel="noopener noreferrer"
             >
               <FaGithub size={20} />
             </a>
-            <a 
-              href="https://www.linkedin.com/in/developermohamme" 
-              aria-label="LinkedIn" 
-              target="_blank" 
+            <a
+              href="https://www.linkedin.com/in/developermohamme"
+              aria-label="LinkedIn"
+              target="_blank"
               rel="noopener noreferrer"
             >
               <FaLinkedin size={20} />
             </a>
-            <a 
-              href="https://wa.me/251967177661?text=Hello%20I%20found%20you%20on%20your%20website" 
+            <a
+              href="https://wa.me/251967177661?text=Hello%20I%20found%20you%20on%20your%20website"
               aria-label="WhatsApp"
-              target="_blank" 
+              target="_blank"
               rel="noopener noreferrer"
             >
               <FaWhatsapp size={22} />
@@ -80,7 +86,9 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; {currentYear} Mohammed Abdu Portfolio. All rights reserved.</p>
+        <p>
+          &copy; {currentYear} Mohammed Abdu Portfolio. All rights reserved.
+        </p>
       </div>
     </footer>
   );
