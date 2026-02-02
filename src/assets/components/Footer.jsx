@@ -59,7 +59,7 @@ const Footer = () => {
           </p>
           <div className="social-links">
             <a
-              href="https://github.com/https://github.com/mohammed-abDev"
+              href="https://github.com/mohammed-abDev"
               aria-label="GitHub"
               target="_blank"
               rel="noopener noreferrer"
@@ -67,7 +67,7 @@ const Footer = () => {
               <FaGithub size={20} />
             </a>
             <a
-              href="https://www.linkedin.com/in/developermohamme"
+              href="https://www.linkedin.com/in/mohammed-abdu-7a2b18343"
               aria-label="LinkedIn"
               target="_blank"
               rel="noopener noreferrer"
