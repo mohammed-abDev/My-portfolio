@@ -2,44 +2,51 @@ import React, { useState } from 'react';
 
 const Projects = () => {
     const projects = [
-        {
-            id: 1,
-            title: 'Evangadi Forum',
-            description: 'A responsive Q&A forum web application that allows users to ask questions, post answers, and engage through likes and discussions, built with React, Node.js, MySQL(tidb-cloud) and CSS, and enhanced with Groq AI API for bot to deliver intelligent, real-time responses.',
-            image: '/imag/evangadi-forum.png',
-            previewLink: 'https://evangadi-forum-mohammmed-abdu.netlify.app/',
-            frontendGithub: 'https://github.com/mohammed-abDev/Evangadi-forum-frontend',
-            backendGithub:'https://github.com/mohammed-abDev/Evangadi-forum-backend',
-            type: 'current1'
-        },
-        {
-            id:2,
-            title: 'Amazon E-Commerce Clone',
-            description: 'A modern e-commerce clone developed using React for the frontend, Node.js for backend logic, CSS for styling, and Firebase for authentication and data storage, emphasizing responsiveness and scalability.',
-            image: '/imag/amazon_firebase.png',
-            previewLink: 'https://github.com/mohammed-abDev/amazone-clone-app',
-            frontendGithub:'https://github.com/mohammed-abDev/amazone-clone-app',
-            backendGithub:'https://github.com/mohammed-abDev/amazone-clone-api-deploy',
-            type: 'current1'
-        },
-        {
-            id:3 ,
-            title: 'Netflix Clone',
-            description: 'A Netflix-style movie streaming app built developed using React for the frontend and CSS for styling, integrated with Movie Trailer APIs and the React YouTube API to deliver dynamic trailers and seamless video playback.',
-            image: '/imag/netfilix-react.png',
-            previewLink: 'https://mohammed-abdev.github.io/netflix-clone-app/',
-            githubLink: 'https://github.com/',
-            type: 'current2'
-        },
-        {
-            id:4 ,
-            title: 'Apple Homepage Clone',
-            description: 'A responsive Apple homepage built with HTML, CSS, and Bootstrap, showcasing sleek design and layout skills.',
-            image: '/imag/apple-bootstrap.jpg',
-            previewLink: 'https://home-page-7db186.netlify.app/',
-            githubLink: 'https://github.com/',
-            type: 'current2'
-        },
+      {
+        id: 1,
+        title: "Evangadi Forum",
+        description:
+          "A responsive Q&A forum web application that allows users to ask questions, post answers, and engage through likes and discussions, built with React, Node.js, MySQL(tidb-cloud) and CSS, and enhanced with Groq AI API for bot to deliver intelligent, real-time responses.",
+        image: "/imag/evangadi-forum.png",
+        previewLink: "https://evangadi-forum-mohammmed-abdu.netlify.app/",
+        frontendGithub:
+          "https://github.com/mohammed-abDev/Evangadi-forum-frontend",
+        backendGithub:
+          "https://github.com/mohammed-abDev/Evangadi-forum-backend",
+        type: "current1",
+      },
+      {
+        id: 2,
+        title: "Amazon E-Commerce Clone",
+        description:
+          "A modern e-commerce clone developed using React for the frontend, Node.js for backend logic, CSS for styling, and Firebase for authentication and data storage, emphasizing responsiveness and scalability.",
+        image: "/imag/amazon_firebase.png",
+        previewLink: "https://amazone-clone-frontend-web.netlify.app/",
+        frontendGithub: "https://github.com/mohammed-abDev/amazone-clone-app",
+        backendGithub:
+          "https://github.com/mohammed-abDev/amazone-clone-api-deploy",
+        type: "current1",
+      },
+      {
+        id: 3,
+        title: "Netflix Clone",
+        description:
+          "A Netflix-style movie streaming app built developed using React for the frontend and CSS for styling, integrated with Movie Trailer APIs and the React YouTube API to deliver dynamic trailers and seamless video playback.",
+        image: "/imag/netfilix-react.png",
+        previewLink: "https://mohammed-abdev.github.io/netflix-clone-app/",
+        githubLink: "https://github.com/",
+        type: "current2",
+      },
+      {
+        id: 4,
+        title: "Apple Homepage Clone",
+        description:
+          "A responsive Apple homepage built with HTML, CSS, and Bootstrap, showcasing sleek design and layout skills.",
+        image: "/imag/apple-bootstrap.jpg",
+        previewLink: "https://home-page-7db186.netlify.app/",
+        githubLink: "https://github.com/",
+        type: "current2",
+      },
     ];
 
     const currentProjects = projects.filter(p => p.type === 'current1');
